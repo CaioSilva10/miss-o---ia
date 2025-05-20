@@ -6,23 +6,23 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
   {
-    enunciado: "Pergunta 1",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "Quais são os 10 primeiros números de pi?",
+    alternativas: ["1592653589", "3,141592653"],
   },
   {
-    enunciado: "Pergunta 2",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "Onde fica a mesopotâmia?",
+    alternativas: ["Oriente Médio, localizada entre os rios Tigre e Eufrates, que hoje em dia corresponde principalmente ao território do Iraque", "Oriente Médio"],
   },
    {
-    enunciado: "Pergunta 3",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "Oque mais é c=8?",
+    alternativas: ["Eu sei,é a minha mãe", "É a minha mãe"],
   },
    {
-    enunciado: "Pergunta 4",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "10+-43",
+    alternativas: ["53", "33"],
   },
    {
-    enunciado: "Pergunta 5",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "Gabriel é uma criança gay?",
+    alternativas: ["sim", "claro"],
   },
 ];
