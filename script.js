@@ -40,6 +40,7 @@ function mostraAlternativas() {
   for (const alternativa of perguntaAtual.alternativas) {
     const botaoAlternativas = document.createElement("button");
     botaoAlternativas.textContent = alternativa;
+    botaoAlternativas.addEventListiner("click"), () => respostaSelecionada
     caixaAlternativas.appendChild(botaoAlternativas);
   }
 function respostaSelecionada(opcaoSelecionada) {
