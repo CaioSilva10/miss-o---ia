@@ -34,17 +34,13 @@ let historiafinal = "";
 function mostraPergunta() {
   perguntaAtual = perguntas[atual];
   caixaPerguntas.textContent = perguntaAtual.enunciado;
-  mostraPergunta();
-}
-mostraPergunta();{
-perguntaAtual = perguntas[atual];
-caixaPerguntas.textContent = perguntaAtual.enunciado;
-mostraAlternativa();
+  mostraAlternativas();
 }
 function mostraAlternativa(){
-  for (conts alternativa of perguntaAtual.alternativas){
+  for (conts alternativa of perguntaAtual.alternativas) {
     const botaoAlternativa = document.createElement("button");
     botaoAlternativa.textcontent = alternativa;
     caixaAlternativas.appendChild(botaoAlternativa);
   }
 }
+mostraPergunta();
