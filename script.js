@@ -36,11 +36,11 @@ function mostraPergunta() {
   caixaPerguntas.textContent = perguntaAtual.enunciado;
   mostraAlternativas();
 }
-function mostraAlternativa(){
-  for (conts alternativa of perguntaAtual.alternativas) {
-    const botaoAlternativa = document.createElement("button");
-    botaoAlternativa.textcontent = alternativa;
-    caixaAlternativas.appendChild(botaoAlternativa);
+function mostraAlternativas() {
+  for (const alternativa of perguntaAtual.alternativas) {
+    const botaoAlternativas = document.createElement("button");
+    botaoAlternativas.textContent = alternativa;
+    caixaAlternativas.appendChild(botaoAlternativas);
   }
 }
 mostraPergunta();
