@@ -23,7 +23,7 @@ const perguntas = [
   },
    {
     enunciado: "Gabriel é uma criança gay?",
-    alternativas: ["sim", "claro"],
+    alternativas: ["sim!", "claro!"],
   },
 ];
 
