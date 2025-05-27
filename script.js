@@ -29,10 +29,12 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
+let historiafinal = "";
 
 function mostraPergunta() {
   perguntaAtual = perguntas[atual];
   caixaPerguntas.textContent = perguntaAtual.enunciado;
+  mostraPergunta();
 }
 mostraPergunta();{
 perguntaAtual = perguntas[atual];
